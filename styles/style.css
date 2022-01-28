@@ -20,6 +20,7 @@
   justify-content:space-between;
   flex-wrap: wrap;
   align-items: flex-start;
+
 }
 
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
@@ -158,20 +159,17 @@ justify-content: center;
   flex-wrap: wrap;
   margin:0px auto 100px;
   width:1100px;
-  border: 1px solid red;
-
 }
  .table__cell{
   width: 250px;
   margin-top: 60px;
-  border: 1px solid red;
 }
 
 .table__heading{
   line-height: 1.15;
   font-size: 24px;
   font-weight: bold;
-  border: 1px solid red;
+
   margin-bottom: 20px;
 }
 .table__text{
@@ -183,5 +181,38 @@ justify-content: center;
 .table__text2{
   line-height: 1.2;
   font-size: 18px;
+  font-weight: normal;
+}
+.feynman{
+ position:relative;
+ height: 890px;
+ background-image: url(../images/feynman.png);
+ background-repeat: no-repeat;
+ background-size: 837px 637px;
+ background-position: left bottom;
+}
+.feynman__title{
+   width: 640px;
+  line-height: 1.15;
+  font-size: 120px;
+  font-weight: bold;
+  text-align: center;
+  margin:100px auto 70px;
+}
+.feynman__subtitle{
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
+  text-align: center;
+  display: inline;
+  position: absolute;
+  left: 38%;
+}
+.feynman__link{
+  position:absolute;
+  height: 50%;
+  right: 48px;
+  line-height: 51px;
+  font-size: 36px;
   font-weight: normal;
 }
