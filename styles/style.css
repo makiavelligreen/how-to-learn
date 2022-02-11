@@ -43,14 +43,6 @@
 
 /* и элемента с модификатором вида ключ-значение */
 
-.table__cell_theme_dark {
-    z-index: 2;
-    color: white;
-    margin-right: 0;
-    margin-top: 80px;
-    width: 200px;
-}
-
 .logo {
     background-size: contain;
     background-repeat: no-repeat;
@@ -147,7 +139,7 @@
     margin-bottom: 100px;
 }
 
-.section__title {
+.section-title {
     width: 60%;
     margin: 0 auto 20px;
     text-align: center;
@@ -156,17 +148,19 @@
     font-weight: bold;
 }
 
-.section__subtitle {
+.section-subtitle {
     width: 60%;
     line-height: 34px;
     font-size: 24px;
     font-weight: normal;
-    margin: 0 auto 60px;
+    margin: 0 auto;
     text-align: center;
 }
 
 .table {
     padding: 0;
+    list-style: none;
+    justify-content: space-between;
     display: flex;
     flex-wrap: wrap;
     margin: 0px auto 100px;
@@ -191,6 +185,7 @@
     line-height: 1.2;
     font-size: 18px;
     font-weight: normal;
+    margin: 20px 0;
 }
 
 .table__text:last-of-type {
@@ -252,7 +247,7 @@
     z-index: 1;
 }
 
-.section__title_theme_dark {
+.section-title_theme_dark {
     width: 60%;
     margin: 90px auto 20px;
     text-align: center;
@@ -262,7 +257,7 @@
     color: white;
 }
 
-.section__subtitle_theme_dark {
+.section-subtitle_theme_dark {
     width: 60%;
     line-height: 34px;
     font-size: 24px;
@@ -293,12 +288,21 @@
     font-weight: normal;
 }
 
+.table__cell_theme_dark {
+    color: white;
+    margin-right: 0;
+    margin-top: 80px;
+    width: 200px;
+    z-index: 2;
+}
+
 .footer {
     display: flex;
     justify-content: center;
     min-height: 350px;
     background-color: #1f1f1f;
     padding: 60px 0 40px;
+    box-sizing: border-box;
 }
 
 .footer__columns {
