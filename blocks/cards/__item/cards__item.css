@@ -2,7 +2,6 @@
     margin: 0px 100px 0px 0px;
     max-width: 240px;
     align-items: flex-start;
-    ;
 }
 
 .cards__item:nth-of-type(3n) {
