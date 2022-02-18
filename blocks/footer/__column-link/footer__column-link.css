@@ -7,12 +7,14 @@
     font-weight: normal;
     text-decoration: none;
     list-style-type: none;
-}
-
-.footer__column-link:hover {
     transition-property: opacity;
     transition-timing-function: linear;
     transition-duration: 1s;
     transition-delay: .4s;
+    display: flex;
+    align-items: center;
+}
+
+.footer__column-link:hover {
     opacity: 0.35;
 }
